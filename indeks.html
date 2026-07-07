@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Belajar IPAS Kelas 6</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold text-blue-600">IPAS Kelas 6</h1>
+            <div class="space-x-4">
+                <a href="#materi" class="hover:text-blue-600 transition">Materi</a>
+                <a href="#latihan" class="hover:text-blue-600 transition">Latihan</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="py-16 px-4 text-center bg-blue-600 text-white">
+        <h2 class="text-4xl font-bold mb-4">Selamat Datang di Portal Belajar IPAS</h2>
+        <p class="text-blue-100 max-w-2xl mx-auto">Eksplorasi dunia ilmu pengetahuan alam dan sosial dengan cara yang menyenangkan.</p>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-12">
+        
+        <section id="materi" class="mb-16">
+            <h3 class="text-2xl font-bold mb-8 text-center">Daftar Modul Semester 1</h3>
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Card 1 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border border-slate-100 hover:shadow-xl transition">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-4">
+                        <i data-lucide="book-open"></i>
+                    </div>
+                    <h4 class="text-lg font-semibold mb-2">Bab 1: Mengenal Tubuh</h4>
+                    <p class="text-slate-600 text-sm mb-4">Pelajari sistem organ manusia dan fungsinya secara mendetail.</p>
+                    <button class="text-blue-600 font-medium hover:underline">Baca Materi →</button>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border border-slate-100 hover:shadow-xl transition">
+                    <div class="w-12 h-12 bg-green-100 text-green-600 rounded-lg flex items-center justify-center mb-4">
+                        <i data-lucide="leaf"></i>
+                    </div>
+                    <h4 class="text-lg font-semibold mb-2">Bab 2: Ekosistem Kita</h4>
+                    <p class="text-slate-600 text-sm mb-4">Memahami hubungan makhluk hidup dengan lingkungannya.</p>
+                    <button class="text-green-600 font-medium hover:underline">Baca Materi →</button>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border border-slate-100 hover:shadow-xl transition">
+                    <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-lg flex items-center justify-center mb-4">
+                        <i data-lucide="globe"></i>
+                    </div>
+                    <h4 class="text-lg font-semibold mb-2">Bab 3: Sejarah & Sosial</h4>
+                    <p class="text-slate-600 text-sm mb-4">Mempelajari interaksi sosial dan sejarah masyarakat Indonesia.</p>
+                    <button class="text-purple-600 font-medium hover:underline">Baca Materi →</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="latihan" class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100">
+            <h3 class="text-2xl font-bold mb-6 text-center">Latihan Soal</h3>
+            <div class="max-w-xl mx-auto text-center">
+                <p class="text-slate-600 mb-6">Uji pemahamanmu dengan mengerjakan kuis interaktif berikut ini.</p>
+                <button class="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition">
+                    Mulai Kuis
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
